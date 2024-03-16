@@ -41,4 +41,16 @@ class UserFactory extends Factory
             'email_verified_at' => null,
         ]);
     }
+
+    /**
+     * Method to set a custom password.
+     */
+    public function withPassword($password)
+    {
+        return $this->state(function () use ($password) {
+            return [
+                'password' => Hash::make($password),
+            ];
+        });
+    }
 }
