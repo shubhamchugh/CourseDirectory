@@ -2,11 +2,12 @@
 
 namespace App\Filament\SuperAdmin\Resources\Course\CourseResource\Components;
 
-use App\Enums\CourseDurationEnum;
-use App\Enums\CourseFormatEnum;
-use App\Enums\CourseLevelEnum;
+use App\Enums\Course\CourseDurationEnum;
+use App\Enums\Course\CourseFormatEnum;
+use App\Enums\Course\CourseGroupEnum;
+use App\Enums\Course\CourseLevelEnum;
+use App\Enums\Course\CourseTypeEnum;
 use App\Enums\PublishStatusEnum;
-use App\Models\Course\CourseType;
 use Camya\Filament\Forms\Components\TitleWithSlugInput;
 use Filament\Forms\Components\DateTimePicker;
 use Filament\Forms\Components\Grid;
@@ -90,11 +91,11 @@ class CourseForm
                         }
                     )->reactive()->required(),
 
-                    Toggle::make(name: 'is_featured'),
+                    Toggle::make('is_featured'),
 
-                    Toggle::make(name: 'is_certificate'),
+                    Toggle::make('is_certificate'),
 
-                    Toggle::make(name: 'has_exercises'),
+                    Toggle::make('has_exercises'),
 
                     Select::make('Instructor')
                         ->label('Course Instructor')
@@ -134,26 +135,11 @@ class CourseForm
 
             Section::make('Type')
                 ->schema([
-                    // Select::make('course_type_id')
-                    //     ->label('Select Course Type')
-                    //     ->searchable()
-                    //     ->options(function () {
-                    //         // Fetch course types and group them
-                    //         $courseTypes = CourseType::all()->groupBy('group');
+                    Select::make('type')
+                        ->options(CourseTypeEnum::getSelectOptions()),
 
-                    //         $groupedOptions = [];
-
-                    //         foreach ($courseTypes as $group => $types) {
-                    //             foreach ($types as $type) {
-                    //                 // Assuming 'group' values are 'courses' and 'degrees'
-                    //                 $groupName = ucfirst($group); // Capitalize the group name
-                    //                 $groupedOptions[$groupName][$type->id] = $type->type;
-                    //             }
-                    //         }
-
-                    //         return $groupedOptions;
-                    //     })
-                    //     ->placeholder('Choose a course type'),
+                    Select::make('group')
+                        ->options(CourseGroupEnum::getSelectOptions()),
 
                     Select::make('level')
                         ->options(CourseLevelEnum::getSelectOptions()),

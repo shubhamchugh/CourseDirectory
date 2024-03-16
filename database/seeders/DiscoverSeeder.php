@@ -4,7 +4,6 @@ namespace Database\Seeders;
 
 use Database\Seeders\Course\CourseReviewSeeder;
 use Database\Seeders\Course\CourseSeeder;
-use Database\Seeders\Course\CourseTypeSeeder;
 use Database\Seeders\Course\InstructorSeeder;
 use Database\Seeders\Geography\LanguageSeeder;
 use Database\Seeders\Partner\InstitutionSeeder;
@@ -20,13 +19,12 @@ class DiscoverSeeder extends Seeder
     public function run(): void
     {
         $this->call([
-            CourseTypeSeeder::class,
+            DemoCredentialsSeeder::class,
             InstructorSeeder::class,
             LanguageSeeder::class,
             UniversitySeeder::class,
             PlatformSeeder::class,
             InstitutionSeeder::class,
-            DemoCredentialsSeeder::class,
             CourseSeeder::class,
             CourseReviewSeeder::class,
         ]);

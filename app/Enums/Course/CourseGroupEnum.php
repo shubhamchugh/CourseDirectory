@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Enums;
+namespace App\Enums\Course;
 
 use Illuminate\Support\Collection;
 
-enum CourseTypeEnum: string
+enum CourseGroupEnum: string
 {
     case COURSE = 'course';
 
@@ -12,8 +12,8 @@ enum CourseTypeEnum: string
 
     public static function getSelectOptions(): Collection
     {
-        return collect(CourseTypeEnum::cases())
-            ->mapWithKeys(callback: fn (CourseTypeEnum $courseTypeEnum) => [$courseTypeEnum->value => $courseTypeEnum->label()]);
+        return collect(CourseGroupEnum::cases())
+            ->mapWithKeys(callback: fn (CourseGroupEnum $courseGroupEnum) => [$courseGroupEnum->value => $courseGroupEnum->label()]);
     }
 
     public function label(): string

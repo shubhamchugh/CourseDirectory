@@ -16,7 +16,8 @@ return new class extends Migration
 
             $table->integer('user_id')->unsigned();
 
-            $table->tinyInteger('course_type_id')->unsigned();
+            $table->string('group');
+            $table->string('type');
 
             $table->integer('university_id')->unsigned()->nullable();
             $table->integer('institution_id')->unsigned()->nullable();
@@ -61,14 +62,11 @@ return new class extends Migration
             $table->softDeletes();
             $table->timestamps();
 
-            $table->foreign('course_type_id')->references('id')->on('course_types')->onDelete('cascade')->onUpdate('cascade');
-
             $table->foreign('user_id')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade');
 
             $table->foreign('university_id')->references('id')->on('universities')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('institution_id')->references('id')->on('institutions')->onDelete('cascade')->onUpdate('cascade');
             $table->foreign('platform_id')->references('id')->on('platforms')->onDelete('cascade')->onUpdate('cascade');
-
         });
     }
 

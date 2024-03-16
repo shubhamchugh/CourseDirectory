@@ -3,7 +3,6 @@
 namespace Database\Factories\Course;
 
 use App\Enums\PublishStatusEnum;
-use App\Models\Course\CourseType;
 use App\Models\Partner\Institution;
 use App\Models\Partner\Platform;
 use App\Models\Partner\University;
@@ -42,7 +41,6 @@ class CourseFactory extends Factory
 
         return [
             'user_id' => User::query()->inRandomOrder()->first()->id, // Assuming User model exists
-            'course_type_id' => CourseType::query()->inRandomOrder()->first()->id, // Assuming CourseType model exists
             'university_id' => University::query()->inRandomOrder()->first()->id, // Assuming University model exists
             'institution_id' => Institution::query()->inRandomOrder()->first()->id, // Assuming Institution model exists
             'platform_id' => Platform::query()->inRandomOrder()->first()->id, // Assuming Platform model exists
@@ -52,6 +50,8 @@ class CourseFactory extends Factory
             'description' => $this->faker->paragraph,
             'headline' => $this->faker->sentence,
             'is_featured' => $this->faker->boolean,
+            'group' => $this->faker->randomElement(['course', 'degree']),
+            'type' => $this->faker->randomElement(['on_demand', 'pre_recorded']),
             'format' => $this->faker->randomElement(['video', 'audio', 'live', 'text', 'interactive', 'offline', 'hybrid']),
             'level' => $this->faker->randomElement(['beginner', 'intermediate', 'advanced', 'professional', 'all_levels']),
             'is_paid' => $this->faker->boolean,
