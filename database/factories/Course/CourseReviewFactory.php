@@ -25,7 +25,7 @@ class CourseReviewFactory extends Factory
             'body' => $this->faker->paragraph,
             'rating' => $this->faker->randomFloat(1, 1, 5), // Generates a random rating between 1.0 and 5.0
             'is_internal_review' => $this->faker->boolean,
-            'is_approved' => $this->faker->boolean(50), // 50% chance to be true or false
+            'approved_at' => $this->faker->boolean(80) ? $this->faker->dateTimeThisYear : null,
         ];
     }
 }
