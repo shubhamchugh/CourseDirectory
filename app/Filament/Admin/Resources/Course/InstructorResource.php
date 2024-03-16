@@ -4,9 +4,11 @@ namespace App\Filament\Admin\Resources\Course;
 
 use App\Filament\Admin\Resources\Course\InstructorResource\Pages;
 use App\Models\Course\Instructor;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
 class InstructorResource extends Resource
@@ -21,7 +23,7 @@ class InstructorResource extends Resource
     {
         return $form
             ->schema([
-                //
+                TextInput::make('name'),
             ]);
     }
 
@@ -29,7 +31,7 @@ class InstructorResource extends Resource
     {
         return $table
             ->columns([
-                //
+                TextColumn::make('name'),
             ])
             ->filters([
                 //

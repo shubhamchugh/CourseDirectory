@@ -3,10 +3,12 @@
 namespace App\Filament\Admin\Resources\Course;
 
 use App\Filament\Admin\Resources\Course\CourseResource\Pages;
+use App\Filament\SuperAdmin\Resources\Course\CourseResource\Components\CourseForm;
 use App\Models\Course\Course;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
 class CourseResource extends Resource
@@ -20,16 +22,16 @@ class CourseResource extends Resource
     public static function form(Form $form): Form
     {
         return $form
-            ->schema([
-                //
-            ]);
+            ->columns(4)
+            ->schema(CourseForm::get());
     }
 
     public static function table(Table $table): Table
     {
         return $table
             ->columns([
-                //
+                TextColumn::make('title'),
+                TextColumn::make('slug'),
             ])
             ->filters([
                 //
