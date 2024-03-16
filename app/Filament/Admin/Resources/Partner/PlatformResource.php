@@ -4,9 +4,12 @@ namespace App\Filament\Admin\Resources\Partner;
 
 use App\Filament\Admin\Resources\Partner\PlatformResource\Pages;
 use App\Models\Partner\Platform;
+use Filament\Forms\Components\Textarea;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
 class PlatformResource extends Resource
@@ -21,7 +24,13 @@ class PlatformResource extends Resource
     {
         return $form
             ->schema([
-                //
+                TextInput::make('name')
+                    ->maxLength(150)
+                    ->required(),
+
+                Textarea::make('description')
+                    ->maxLength(1024)
+                    ->autosize(),
             ]);
     }
 
@@ -29,7 +38,7 @@ class PlatformResource extends Resource
     {
         return $table
             ->columns([
-                //
+                TextColumn::make('name'),
             ])
             ->filters([
                 //
