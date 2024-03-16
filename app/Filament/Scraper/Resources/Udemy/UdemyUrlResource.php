@@ -3,21 +3,19 @@
 namespace App\Filament\Scraper\Resources\Udemy;
 
 use App\Filament\Scraper\Resources\Udemy\UdemyUrlResource\Pages;
-use App\Filament\Scraper\Resources\Udemy\UdemyUrlResource\RelationManagers;
-use App\Models\Udemy\UdemyUrl;
-use Filament\Forms;
+use App\Models\Scraper\Udemy\UdemyUrl;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class UdemyUrlResource extends Resource
 {
     protected static ?string $model = UdemyUrl::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+
+    protected static ?string $navigationGroup = 'Udemy';
 
     public static function form(Form $form): Form
     {

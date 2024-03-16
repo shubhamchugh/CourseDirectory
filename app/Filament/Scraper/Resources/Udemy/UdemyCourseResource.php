@@ -3,21 +3,20 @@
 namespace App\Filament\Scraper\Resources\Udemy;
 
 use App\Filament\Scraper\Resources\Udemy\UdemyCourseResource\Pages;
-use App\Filament\Scraper\Resources\Udemy\UdemyCourseResource\RelationManagers;
-use App\Models\Udemy\UdemyCourse;
-use Filament\Forms;
+use App\Models\Scraper\Udemy\UdemyCourse;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class UdemyCourseResource extends Resource
 {
     protected static ?string $model = UdemyCourse::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+
+    protected static ?string $navigationGroup = 'Udemy';
 
     public static function form(Form $form): Form
     {
@@ -31,7 +30,8 @@ class UdemyCourseResource extends Resource
     {
         return $table
             ->columns([
-                //
+                TextColumn::make('title'),
+                TextColumn::make('udemy_course_id'),
             ])
             ->filters([
                 //

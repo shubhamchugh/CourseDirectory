@@ -3,21 +3,19 @@
 namespace App\Filament\Scraper\Resources\Edx;
 
 use App\Filament\Scraper\Resources\Edx\EdxCourseResource\Pages;
-use App\Filament\Scraper\Resources\Edx\EdxCourseResource\RelationManagers;
-use App\Models\Edx\EdxCourse;
-use Filament\Forms;
+use App\Models\Scraper\Edx\EdxCourse;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
 use Filament\Tables\Table;
-use Illuminate\Database\Eloquent\Builder;
-use Illuminate\Database\Eloquent\SoftDeletingScope;
 
 class EdxCourseResource extends Resource
 {
     protected static ?string $model = EdxCourse::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-rectangle-stack';
+
+    protected static ?string $navigationGroup = 'Edx';
 
     public static function form(Form $form): Form
     {
