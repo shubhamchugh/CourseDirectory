@@ -134,26 +134,26 @@ class CourseForm
 
             Section::make('Type')
                 ->schema([
-                    Select::make('course_type_id')
-                        ->label('Select Course Type')
-                        ->searchable()
-                        ->options(function () {
-                            // Fetch course types and group them
-                            $courseTypes = CourseType::all()->groupBy('group');
+                    // Select::make('course_type_id')
+                    //     ->label('Select Course Type')
+                    //     ->searchable()
+                    //     ->options(function () {
+                    //         // Fetch course types and group them
+                    //         $courseTypes = CourseType::all()->groupBy('group');
 
-                            $groupedOptions = [];
+                    //         $groupedOptions = [];
 
-                            foreach ($courseTypes as $group => $types) {
-                                foreach ($types as $type) {
-                                    // Assuming 'group' values are 'courses' and 'degrees'
-                                    $groupName = ucfirst($group); // Capitalize the group name
-                                    $groupedOptions[$groupName][$type->id] = $type->type;
-                                }
-                            }
+                    //         foreach ($courseTypes as $group => $types) {
+                    //             foreach ($types as $type) {
+                    //                 // Assuming 'group' values are 'courses' and 'degrees'
+                    //                 $groupName = ucfirst($group); // Capitalize the group name
+                    //                 $groupedOptions[$groupName][$type->id] = $type->type;
+                    //             }
+                    //         }
 
-                            return $groupedOptions;
-                        })
-                        ->placeholder('Choose a course type'),
+                    //         return $groupedOptions;
+                    //     })
+                    //     ->placeholder('Choose a course type'),
 
                     Select::make('level')
                         ->options(CourseLevelEnum::getSelectOptions()),
