@@ -4,9 +4,12 @@ namespace App\Filament\Admin\Resources\Geography;
 
 use App\Filament\Admin\Resources\Geography\RegionResource\Pages;
 use App\Models\Geography\Region;
+use Filament\Forms\Components\KeyValue;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
 class RegionResource extends Resource
@@ -21,7 +24,9 @@ class RegionResource extends Resource
     {
         return $form
             ->schema([
-                //
+                TextInput::make('name'),
+                TextInput::make('wikiDataId'),
+                KeyValue::make('translations'),
             ]);
     }
 
@@ -29,7 +34,8 @@ class RegionResource extends Resource
     {
         return $table
             ->columns([
-                //
+                TextColumn::make('name'),
+                TextColumn::make('wikiDataId'),
             ])
             ->filters([
                 //

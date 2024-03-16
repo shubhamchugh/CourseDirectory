@@ -4,9 +4,11 @@ namespace App\Filament\Admin\Resources\Geography;
 
 use App\Filament\Admin\Resources\Geography\LanguageResource\Pages;
 use App\Models\Geography\Language;
+use Filament\Forms\Components\TextInput;
 use Filament\Forms\Form;
 use Filament\Resources\Resource;
 use Filament\Tables;
+use Filament\Tables\Columns\TextColumn;
 use Filament\Tables\Table;
 
 class LanguageResource extends Resource
@@ -21,7 +23,9 @@ class LanguageResource extends Resource
     {
         return $form
             ->schema([
-                //
+                TextInput::make('name')->required()->maxLength(100),
+                TextInput::make('code')->required()->maxLength(25),
+                TextInput::make('type')->required()->maxLength(25),
             ]);
     }
 
@@ -29,7 +33,9 @@ class LanguageResource extends Resource
     {
         return $table
             ->columns([
-                //
+                TextColumn::make('name'),
+                TextColumn::make('code'),
+                TextColumn::make('type'),
             ])
             ->filters([
                 //
