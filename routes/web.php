@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('edublink.content.home.index');
-});
+})->name('home.index');
 
 Route::get('/about-us', function () {
     return view('edublink.content.about.index');

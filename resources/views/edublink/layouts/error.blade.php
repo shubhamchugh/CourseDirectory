@@ -34,7 +34,8 @@
                     <div class="content">
                         <h2 class="title">@yield('code') - @yield('message')</h2>
                         {{-- <h4 class="subtitle">The page you are looking for does not exist.</h4> --}}
-                        <a href="index-one.html" class="edu-btn"><i class="icon-west"></i>Back to Homepage</a>
+                        <a href="{{ route('home.index') }}" class="edu-btn"><i class="icon-west"></i>Back to
+                            Homepage</a>
                     </div>
                 </div>
             </div>

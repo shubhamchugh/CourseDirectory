@@ -8,7 +8,7 @@
             <div class="header-navbar">
                 <div class="header-brand">
                     <div class="logo">
-                        <a href="index.html">
+                        <a href="{{ route('home.index') }}">
                             <img class="logo-light" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
                             <img class="logo-dark" src="assets/images/logo/logo-white.png" alt="Corporate Logo">
                         </a>
@@ -17,7 +17,7 @@
                 <div class="header-mainnav">
                     <nav class="mainmenu-nav">
                         <ul class="mainmenu">
-                            <li class="has-droupdown"><a href="#">Home</a>
+                            <li class="has-droupdown"><a href="{{ route('home.index') }}">Home</a>
                                 <ul class="mega-menu mega-menu-one">
                                     <li>
                                         <ul class="submenu mega-sub-menu mega-sub-menu-01">
@@ -182,7 +182,7 @@
         <div class="inner">
             <div class="header-top">
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="{{ route('home.index') }}">
                         <img class="logo-light" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
                         <img class="logo-dark" src="assets/images/logo/logo-white.png" alt="Corporate Logo">
                     </a>
@@ -194,7 +194,7 @@
                 </div>
             </div>
             <ul class="mainmenu">
-                <li class="has-droupdown"><a href="#">Home</a>
+                <li class="has-droupdown"><a href="{{ route('home.index') }}">Home</a>
                     <ul class="mega-menu mega-menu-one">
                         <li>
                             <ul class="submenu mega-sub-menu mega-sub-menu-01">
