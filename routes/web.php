@@ -11,7 +11,11 @@ Route::get('/blog-page', function () {
 });
 
 Route::get('/blog-post', function () {
-    return view('edublink.content.home.index');
+    return view('edublink.content.blog.posts.index');
+});
+
+Route::get('/blog-list', function () {
+    return view('edublink.content.blog.lists.index');
 });
 
 Route::get('/course-details', function () {

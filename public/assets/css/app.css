@@ -1,22 +1,22 @@
 /*---------------------------------------------
 Template Name: EduBlink Education HTML5 Template
-Template URL: 
-Description: 
-Author: 
-Author URL: 
+Template URL:
+Description:
+Author:
+Author URL:
 Version: 1.0.0
 
-===============================================   
+===============================================
 STYLESHEET INDEXING
 |
 |___ Default Styles
 |	|___ Variables
-|	|___ Shortcode 
+|	|___ Shortcode
 |	|___ Reset Styels
 |	|___ Typography
 |	|___ Forms Styles
-|	|___ Common 
-|	|___ Animation 
+|	|___ Common
+|	|___ Animation
 |
 |___ Elements Styles
 |	|___ Accordion Style
@@ -25,11 +25,11 @@ STYLESHEET INDEXING
 |	|___ Button
 |	|___ Countdown
 |	|___ Course Widget
-|	|___ Pagination Styles 
-|	|___ Sal Styels 
+|	|___ Pagination Styles
+|	|___ Sal Styels
 |	|___ Section Title
-|	|___ Slick Styles 
-|	|___ Social Share Style 
+|	|___ Slick Styles
+|	|___ Social Share Style
 |
 |___Template Styles
 |	|___ About Styles
@@ -213,7 +213,7 @@ STYLESHEET INDEXING
 }
 
 /*===========================
-    Background Image 
+    Background Image
 =============================*/
 .shape-group, .edu-breadcrumb-area .edu-breadcrumb, .edu-breadcrumb-area .course-meta, .edu-breadcrumb-area .shape-group, .edu-course-widget.widget-course-summery .content .course-item, .edu-pagination, .about-image-gallery .shape-group li, .about-content .features-list, .about-style-1 .shape-group,
 .about-style-2 .shape-group, .about-style-3 .about-image-gallery .shape-group, .about-style-3 .shape-group, .about-style-5 .shape-group, .cta-banner-2 .shape-group, .cta-banner-3 .shape-group, .edu-cta-banner .shape-group, .edu-cta-box .shape-group, .contact-me .thumbnail .shape-group, .contact-us-info .address-list, .contact-form-area .shape-group, .contact-form.form-style-2 .shape-group, .edu-course .content .course-meta, .edu-course .hover-content-aside .content .course-feature ul, .course-layout-five-tooltip-content .content .course-meta, .course-layout-five-tooltip-content .content .course-feature ul, .course-area-3 .shape-group, .course-area-7 .shape-group, .edu-sorting-area .sorting-right .layout-switcher .switcher-btn, .course-details-content .entry-content .course-meta, .course-curriculam .course-lesson ul, .edu-event .content .event-meta, .edu-event-list .content .event-meta, .edu-event-area .shape-group, .event-details .details-content .event-meta, .edu-faq-content .shape-group, .edu-faq-gallery .shape-group, .faq-style-4 .faq-thumbnail .shape-group, .hero-banner .banner-content .shape-group, .hero-banner .banner-thumbnail .shape-group, .hero-banner.hero-style-2 .banner-gallery .shape-group, .hero-banner.hero-style-3 .shape-group, .hero-banner.hero-style-4 .shape-group, .hero-banner.hero-style-5 .shape-group, .hero-banner.hero-style-6 .shape-group, .hero-banner.hero-style-7 .shape-group, .pricing-table .pricing-body .list-item, .privacy-policy ul, .product-details-area .content .product-feature, .edu-product .inner > .thumbnail .product-hover-info ul, .account-page-area .shape-group, .pv-elementor-area .elementor-thumbnail .shape-group li, .pv-shop-area .shop-thumbnail .shop-thumbnail-images .shape-group li, .pv-inner-page-area .shape-group li, .pv-zoom-demo-area .zoom-thumbnail .shape-group li, .pv-cta-area .shape-group li, .team-share-info, .team-area-3 .shape-group, .team-area-4 .shape-group, .team-area-5 .shape-group, .team-area-6 .shape-group, .team-details-content .main-info .team-meta, .team-details-content .contact-info ul, .video-gallery .shape-group, .error-page-area > .shape-group, .edu-error .thumbnail .shape-group, .coming-soon-page-area .shape-group, .header-top .header-info, .header-action, .edu-footer .information-list, .blog-meta, .edu-blog-area .shape-group, .edu-blog-widget.widget-categories .category-list {
@@ -1628,7 +1628,7 @@ var {
 }
 
 /*---------------------------
-    List Style 
+    List Style
 ---------------------------*/
 ul,
 ol {
@@ -1944,7 +1944,7 @@ input[type="radio"]:checked ~ label::before {
 }
 
 /*--------------------
-    Contact Form 
+    Contact Form
 ----------------------*/
 .form-group {
     margin-bottom: 20px;
@@ -2046,7 +2046,7 @@ input[type="radio"]:checked ~ label::before {
 }
 
 /*----------------------
-    Animation  
+    Animation
 -----------------------*/
 .edublink-animated-shape {
     position: relative;
@@ -2627,7 +2627,7 @@ input[type="radio"]:checked ~ label::before {
 }
 
 /* ------------------------
-    Custom Animation 01 
+    Custom Animation 01
 ----------------------------*/
 @-webkit-keyframes headerSlideDown {
     0% {
@@ -2705,7 +2705,7 @@ input[type="radio"]:checked ~ label::before {
 }
 
 /*--------------------------------
-Scroll Down Button Animation  
+Scroll Down Button Animation
 ----------------------------------*/
 @-webkit-keyframes scrollDown {
     0% {
@@ -3125,7 +3125,7 @@ Scroll Down Button Animation
 }
 
 /*-------------------------
-    Back To Top  
+    Back To Top
 ---------------------------*/
 @-webkit-keyframes border-transform {
     0%,
@@ -4222,7 +4222,7 @@ a.edu-btn.btn-round:hover,
 }
 
 /*-------------------------
-Countdown 
+Countdown
 --------------------------*/
 .countdown {
     display: -webkit-box;
@@ -17867,7 +17867,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*-------------------
-  Pricing Table Styles 
+  Pricing Table Styles
 ---------------------*/
 .pricing-table {
     background-color: var(--color-white);
@@ -18041,7 +18041,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*----------------------------
-    Product Details Styles 
+    Product Details Styles
 ------------------------------*/
 .product-details-area {
     padding-bottom: 95px;
@@ -18326,7 +18326,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*-------------------
-  Shop Styles 
+  Shop Styles
 ---------------------*/
 .edu-product {
     margin-bottom: 15px;
@@ -19186,7 +19186,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*-------------------
-  Splash Page Styles 
+  Splash Page Styles
 ---------------------*/
 .edublink-landing-page #edublink-preloader {
     display: none !important;
@@ -30307,10 +30307,10 @@ body .tpd-size-medium .tpd-content {
      Styles End
 =========================================================================*/
 /*=======================================================================
-4.Blocks Styles 
+4.Blocks Styles
 =========================================================================*/
 /*--------------------------
-    Header Styles  
+    Header Styles
 --------------------------*/
 .edu-header {
     z-index: 99;
@@ -30456,7 +30456,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*------------------------
-    Header Style One  
+    Header Style One
 --------------------------*/
 .header-style-1 {
     position: relative;
@@ -30551,7 +30551,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*------------------------
-    Header Style Two  
+    Header Style Two
 --------------------------*/
 .header-style-2 .header-mainmenu .header-right {
     position: relative;
@@ -30630,7 +30630,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*------------------------
-    Header Style Three  
+    Header Style Three
 --------------------------*/
 .header-style-3 .header-mainmenu .header-right {
     position: relative;
@@ -30709,7 +30709,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*------------------------
-    Header Style Four  
+    Header Style Four
 --------------------------*/
 .header-style-4 {
     position: relative;
@@ -30802,7 +30802,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*------------------------
-    Header Style Seven  
+    Header Style Seven
 --------------------------*/
 .header-style-7 .header-mainmenu {
     background-color: transparent;
@@ -30961,7 +30961,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*------------------------
-    remote-training 
+    remote-training
 --------------------------*/
 .remote-training .header-mainmenu {
     padding-left: 90px;
@@ -30992,7 +30992,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*------------------------
-    Photography  
+    Photography
 --------------------------*/
 .header-photography {
     position: relative;
@@ -31190,7 +31190,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*--------------------------
-    Navigation Styles 
+    Navigation Styles
 ----------------------------*/
 .mainmenu-nav .mainmenu {
     display: -webkit-box;
@@ -31488,7 +31488,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*--------------------------
-    Header Top Styles  
+    Header Top Styles
 --------------------------*/
 .header-top-bar {
     background-color: #1f2432;
@@ -31697,7 +31697,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*------------------------
-    Header Actions  
+    Header Actions
 -------------------------*/
 .header-action {
     display: -webkit-box;
@@ -31834,7 +31834,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*------------------------------
-    Popup Menu Styles  
+    Popup Menu Styles
 --------------------------------*/
 .popup-mobile-menu {
     z-index: 9999;
@@ -32031,7 +32031,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*----------------------
-    Search Popup  
+    Search Popup
 -----------------------*/
 .edu-search-popup {
     position: fixed;
@@ -32980,7 +32980,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*-------------------------
-    Copyright Styles  
+    Copyright Styles
 --------------------------*/
 .copyright-area {
     padding: 32px 0;
@@ -33016,10 +33016,10 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*=======================================================================
-5.Blog Styles 
+5.Blog Styles
 =========================================================================*/
 /*-------------------------
-    Blog Styles  
+    Blog Styles
 ---------------------------*/
 .blog-meta {
     display: -webkit-box;
@@ -34032,7 +34032,7 @@ body .tpd-size-medium .tpd-content {
 }
 
 /*-------------------------
-    Blog Details Styles  
+    Blog Details Styles
 ---------------------------*/
 .blog-details-content {
     border-bottom: 1px solid var(--color-border);
@@ -34318,7 +34318,7 @@ blockquote .author {
 }
 
 /*-----------------------------
-    Blog Comments Style  
+    Blog Comments Style
 ------------------------------*/
 .comment-area {
     margin-top: 100px;
@@ -34730,6 +34730,10 @@ blockquote .author {
 
 .section-gap-equal {
     padding: 120px 0;
+}
+
+.section-gap-equal-60 {
+    padding: 60px 0;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -36170,19 +36174,19 @@ body.dark-mode {
     Categorie Dark Styles
     ---------------------*/
   /*-------------------------
-        Counterup Styles  
+        Counterup Styles
     --------------------------*/
   /*-------------------------
-        Landing Page Dark Styles  
+        Landing Page Dark Styles
     --------------------------*/
   /*-------------------------
-        Course Styles  
+        Course Styles
     --------------------------*/
   /*-------------------------
-        Campus Styles  
+        Campus Styles
     --------------------------*/
   /*-------------------------
-        Copyright Styles  
+        Copyright Styles
     --------------------------*/
   /*-------------------
     Event Dark Styles
