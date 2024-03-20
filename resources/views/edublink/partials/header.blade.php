@@ -21,7 +21,7 @@
                             <li><a href="#">Pages</a></li>
                             <li><a href="{{ route('course.list.index') }}">Courses</a></li>
                             <li><a href="{{ route('blog.list.index') }}">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="{{ route('contact') }}">Contact</a></li>
                         </ul>
                     </nav>
                 </div>

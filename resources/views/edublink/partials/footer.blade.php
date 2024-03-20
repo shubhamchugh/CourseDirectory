@@ -46,7 +46,7 @@
                         <h4 class="widget-title">Links</h4>
                         <div class="inner">
                             <ul class="footer-link link-hover">
-                                <li><a href="contact-us.html">Contact Us</a></li>
+                                <li><a href="{{ route('contact') }}">Contact Us</a></li>
                                 <li><a href="gallery-grid.html">Gallery</a></li>
                                 <li><a href="blog-standard.html">News & Articles</a></li>
                                 <li><a href="faq.html">FAQ's</a></li>

@@ -239,7 +239,7 @@
                 <div class="edu-course course-style-4 course-style-14">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="course-details.html">
+                            <a href="{{ route('course.details.index') }}">
                                 <img src="assets/images/course/course-12.jpg" alt="Course Meta">
                             </a>
                             <div class="time-top">
@@ -249,7 +249,8 @@
                         <div class="content">
                             <div class="course-price">$29.00</div>
                             <h6 class="title">
-                                <a href="course-details.html">Java Programming Masterclass for Software Developers</a>
+                                <a href="{{ route('course.details.index') }}">Java Programming Masterclass for Software
+                                    Developers</a>
                             </h6>
                             <div class="course-rating">
                                 <div class="rating">
@@ -273,7 +274,8 @@
                         <div class="content">
                             <span class="course-level">Engineering</span>
                             <h5 class="title">
-                                <a href="course-details.html">Java Programming Masterclass for Software Developers</a>
+                                <a href="{{ route('course.details.index') }}">Java Programming Masterclass for Software
+                                    Developers</a>
                             </h5>
                             <div class="course-rating">
                                 <div class="rating">
@@ -308,7 +310,7 @@
                 <div class="edu-course course-style-4 course-style-14">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="course-details.html">
+                            <a href="{{ route('course.details.index') }}">
                                 <img src="assets/images/course/course-11.jpg" alt="Course Meta">
                             </a>
                             <div class="time-top">
@@ -318,7 +320,8 @@
                         <div class="content">
                             <div class="course-price">$29.00</div>
                             <h6 class="title">
-                                <a href="course-details.html">React - The Complete Guide (incl Hooks, React, Redux)</a>
+                                <a href="{{ route('course.details.index') }}">React - The Complete Guide (incl Hooks,
+                                    React, Redux)</a>
                             </h6>
                             <div class="course-rating">
                                 <div class="rating">
@@ -342,7 +345,8 @@
                         <div class="content">
                             <span class="course-level">Engineering</span>
                             <h5 class="title">
-                                <a href="course-details.html">React - The Complete Guide (incl Hooks, React, Redux)</a>
+                                <a href="{{ route('course.details.index') }}">React - The Complete Guide (incl Hooks,
+                                    React, Redux)</a>
                             </h5>
                             <div class="course-rating">
                                 <div class="rating">
@@ -377,7 +381,7 @@
                 <div class="edu-course course-style-4 course-style-14">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="course-details.html">
+                            <a href="{{ route('course.details.index') }}">
                                 <img src="assets/images/course/course-14.jpg" alt="Course Meta">
                             </a>
                             <div class="time-top">
@@ -387,7 +391,8 @@
                         <div class="content">
                             <div class="course-price">$29.00</div>
                             <h6 class="title">
-                                <a href="course-details.html">Microsoft Excel - Excel from Beginner to Advanced</a>
+                                <a href="{{ route('course.details.index') }}">Microsoft Excel - Excel from Beginner to
+                                    Advanced</a>
                             </h6>
                             <div class="course-rating">
                                 <div class="rating">
@@ -411,7 +416,8 @@
                         <div class="content">
                             <span class="course-level">Engineering</span>
                             <h5 class="title">
-                                <a href="course-details.html">Microsoft Excel - Excel from Beginner to Advanced</a>
+                                <a href="{{ route('course.details.index') }}">Microsoft Excel - Excel from Beginner to
+                                    Advanced</a>
                             </h5>
                             <div class="course-rating">
                                 <div class="rating">
@@ -446,7 +452,7 @@
                 <div class="edu-course course-style-4 course-style-14">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="course-details.html">
+                            <a href="{{ route('course.details.index') }}">
                                 <img src="assets/images/course/course-13.jpg" alt="Course Meta">
                             </a>
                             <div class="time-top">
@@ -456,7 +462,8 @@
                         <div class="content">
                             <div class="course-price">$29.00</div>
                             <h6 class="title">
-                                <a href="course-details.html">Adobe Premiere Pro CC Master-class: Video Editing</a>
+                                <a href="{{ route('course.details.index') }}">Adobe Premiere Pro CC Master-class: Video
+                                    Editing</a>
                             </h6>
                             <div class="course-rating">
                                 <div class="rating">
@@ -480,7 +487,8 @@
                         <div class="content">
                             <span class="course-level">Engineering</span>
                             <h5 class="title">
-                                <a href="course-details.html">Adobe Premiere Pro CC Master-class: Video Editing</a>
+                                <a href="{{ route('course.details.index') }}">Adobe Premiere Pro CC Master-class: Video
+                                    Editing</a>
                             </h5>
                             <div class="course-rating">
                                 <div class="rating">
@@ -515,7 +523,7 @@
                 <div class="edu-course course-style-4 course-style-14">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="course-details.html">
+                            <a href="{{ route('course.details.index') }}">
                                 <img src="assets/images/course/course-41.jpg" alt="Course Meta">
                             </a>
                             <div class="time-top">
@@ -525,7 +533,8 @@
                         <div class="content">
                             <div class="course-price">$29.00</div>
                             <h6 class="title">
-                                <a href="course-details.html">The Complete Camtasia Course for Content Creators</a>
+                                <a href="{{ route('course.details.index') }}">The Complete Camtasia Course for Content
+                                    Creators</a>
                             </h6>
                             <div class="course-rating">
                                 <div class="rating">
@@ -549,7 +558,8 @@
                         <div class="content">
                             <span class="course-level">Engineering</span>
                             <h5 class="title">
-                                <a href="course-details.html">The Complete Camtasia Course for Content Creators</a>
+                                <a href="{{ route('course.details.index') }}">The Complete Camtasia Course for Content
+                                    Creators</a>
                             </h5>
                             <div class="course-rating">
                                 <div class="rating">
@@ -584,7 +594,7 @@
                 <div class="edu-course course-style-4 course-style-14">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="course-details.html">
+                            <a href="{{ route('course.details.index') }}">
                                 <img src="assets/images/course/course-42.jpg" alt="Course Meta">
                             </a>
                             <div class="time-top">
@@ -594,7 +604,8 @@
                         <div class="content">
                             <div class="course-price">$29.00</div>
                             <h6 class="title">
-                                <a href="course-details.html">Build Responsive Real-World Websites with HTML & CSS</a>
+                                <a href="{{ route('course.details.index') }}">Build Responsive Real-World Websites with
+                                    HTML & CSS</a>
                             </h6>
                             <div class="course-rating">
                                 <div class="rating">
@@ -618,7 +629,8 @@
                         <div class="content">
                             <span class="course-level">Engineering</span>
                             <h5 class="title">
-                                <a href="course-details.html">Build Responsive Real-World Websites with HTML & CSS</a>
+                                <a href="{{ route('course.details.index') }}">Build Responsive Real-World Websites with
+                                    HTML & CSS</a>
                             </h5>
                             <div class="course-rating">
                                 <div class="rating">
@@ -653,7 +665,7 @@
                 <div class="edu-course course-style-4 course-style-14">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="course-details.html">
+                            <a href="{{ route('course.details.index') }}">
                                 <img src="assets/images/course/course-43.jpg" alt="Course Meta">
                             </a>
                             <div class="time-top">
@@ -663,7 +675,8 @@
                         <div class="content">
                             <div class="course-price">$29.00</div>
                             <h6 class="title">
-                                <a href="course-details.html">C Programming For Beginners - Master the C Language</a>
+                                <a href="{{ route('course.details.index') }}">C Programming For Beginners - Master the C
+                                    Language</a>
                             </h6>
                             <div class="course-rating">
                                 <div class="rating">
@@ -687,7 +700,8 @@
                         <div class="content">
                             <span class="course-level">Engineering</span>
                             <h5 class="title">
-                                <a href="course-details.html">C Programming For Beginners - Master the C Language</a>
+                                <a href="{{ route('course.details.index') }}">C Programming For Beginners - Master the C
+                                    Language</a>
                             </h5>
                             <div class="course-rating">
                                 <div class="rating">
@@ -722,7 +736,7 @@
                 <div class="edu-course course-style-4 course-style-14">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="course-details.html">
+                            <a href="{{ route('course.details.index') }}">
                                 <img src="assets/images/course/course-44.jpg" alt="Course Meta">
                             </a>
                             <div class="time-top">
@@ -732,7 +746,8 @@
                         <div class="content">
                             <div class="course-price">$29.00</div>
                             <h6 class="title">
-                                <a href="course-details.html">Vue - The Complete Guide (w/ Router, Composition API)</a>
+                                <a href="{{ route('course.details.index') }}">Vue - The Complete Guide (w/ Router,
+                                    Composition API)</a>
                             </h6>
                             <div class="course-rating">
                                 <div class="rating">
@@ -756,7 +771,8 @@
                         <div class="content">
                             <span class="course-level">Engineering</span>
                             <h5 class="title">
-                                <a href="course-details.html">Vue - The Complete Guide (w/ Router, Composition API)</a>
+                                <a href="{{ route('course.details.index') }}">Vue - The Complete Guide (w/ Router,
+                                    Composition API)</a>
                             </h5>
                             <div class="course-rating">
                                 <div class="rating">
@@ -791,7 +807,7 @@
                 <div class="edu-course course-style-4 course-style-14">
                     <div class="inner">
                         <div class="thumbnail">
-                            <a href="course-details.html">
+                            <a href="{{ route('course.details.index') }}">
                                 <img src="assets/images/course/course-45.jpg" alt="Course Meta">
                             </a>
                             <div class="time-top">
@@ -801,7 +817,8 @@
                         <div class="content">
                             <div class="course-price">$29.00</div>
                             <h6 class="title">
-                                <a href="course-details.html">Master Microservices with Spring Boot & Spring Cloud</a>
+                                <a href="{{ route('course.details.index') }}">Master Microservices with Spring Boot &
+                                    Spring Cloud</a>
                             </h6>
                             <div class="course-rating">
                                 <div class="rating">
@@ -825,7 +842,8 @@
                         <div class="content">
                             <span class="course-level">Engineering</span>
                             <h5 class="title">
-                                <a href="course-details.html">Master Microservices with Spring Boot & Spring Cloud</a>
+                                <a href="{{ route('course.details.index') }}">Master Microservices with Spring Boot &
+                                    Spring Cloud</a>
                             </h5>
                             <div class="course-rating">
                                 <div class="rating">
