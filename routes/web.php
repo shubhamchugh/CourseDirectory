@@ -6,6 +6,10 @@ Route::get('/', function () {
     return view('edublink.content.home.index');
 });
 
+Route::get('/about-us', function () {
+    return view('edublink.content.about.index');
+});
+
 Route::get('/blog-page', function () {
     return view('edublink.content.blog.pages.index');
 });
