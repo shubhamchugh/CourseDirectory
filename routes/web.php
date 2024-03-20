@@ -7,7 +7,7 @@ Route::get('/', function () {
 });
 
 Route::get('/blog-page', function () {
-    return view('edublink.content.home.index');
+    return view('edublink.content.blog.pages.index');
 });
 
 Route::get('/blog-post', function () {
