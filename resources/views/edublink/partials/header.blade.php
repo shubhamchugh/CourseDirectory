@@ -19,8 +19,8 @@
                         <ul class="mainmenu">
                             <li><a href="{{ route('home.index') }}">Home</a></li>
                             <li><a href="#">Pages</a></li>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Blog</a></li>
+                            <li><a href="{{ route('course.list.index') }}">Courses</a></li>
+                            <li><a href="{{ route('blog.list.index') }}">Blog</a></li>
                             <li><a href="#">Contact</a></li>
                         </ul>
                     </nav>

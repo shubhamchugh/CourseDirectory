@@ -9,7 +9,7 @@
                 <div class="col-lg-3 col-md-6">
                     <div class="edu-footer-widget">
                         <div class="logo">
-                            <a href="index.html">
+                            <a href="{{ route('home.index') }}">
                                 <img class="logo-light" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
                                 <img class="logo-dark" src="assets/images/logo/logo-white.png" alt="Corporate Logo">
                             </a>
@@ -31,7 +31,7 @@
                         <h4 class="widget-title">Online Platform</h4>
                         <div class="inner">
                             <ul class="footer-link link-hover">
-                                <li><a href="about-one.html">About</a></li>
+                                <li><a href="{{ route('about') }}">About</a></li>
                                 <li><a href="course-one.html">Courses</a></li>
                                 <li><a href="team-one.html">Instructor</a></li>
                                 <li><a href="event-grid.html">Events</a></li>
@@ -85,9 +85,11 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="inner text-center">
-                        <p>Copyright 2024 <a href="https://1.envato.market/5bQ022" target="_blank">EduBlink</a> Designed
-                            By <a href="https://1.envato.market/YgGJbj" target="_blank">DevsBlink</a>. All Rights
-                            Reserved</p>
+                        <p>Copyright 2024.
+                            {{-- <a href="https://1.envato.market/5bQ022" target="_blank">EduBlink</a> --}}
+                            {{-- Designed By <a href="https://1.envato.market/YgGJbj" target="_blank">DevsBlink</a>.
+                            --}}
+                            All Rights Reserved</p>
                     </div>
                 </div>
             </div>

@@ -134,7 +134,7 @@
                         <div class="edu-event-list event-list-2">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="event-details.html">
+                                    <a href="{{ route('blog.post.index') }}">
                                         <img src="assets/images/event/event-14.jpg" alt="Event Images">
                                     </a>
                                 </div>
@@ -143,14 +143,15 @@
                                         <li><i class="icon-27"></i>Oct 10, 2024</li>
                                         <li><i class="icon-33"></i>08:00AM-10:00PM</li>
                                     </ul>
-                                    <h4 class="title"><a href="event-details.html">Global Education Fall Meeting for
+                                    <h4 class="title"><a href="{{ route('blog.post.index') }}">Global Education Fall
+                                            Meeting for
                                             Everyone</a></h4>
                                     <span class="event-location"><i class="icon-40"></i>Newyork City, USA</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
                                         incididunt.</p>
                                     <div class="read-more-btn">
-                                        <a class="edu-btn btn-medium btn-border" href="event-details.html">Learn More <i
-                                                class="icon-4"></i></a>
+                                        <a class="edu-btn btn-medium btn-border"
+                                            href="{{ route('blog.post.index') }}">Learn More <i class="icon-4"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -160,7 +161,7 @@
                         <div class="edu-event-list event-list-2">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="event-details.html">
+                                    <a href="{{ route('blog.post.index') }}">
                                         <img src="assets/images/event/event-15.jpg" alt="Event Images">
                                     </a>
                                 </div>
@@ -169,14 +170,15 @@
                                         <li><i class="icon-27"></i>Oct 10, 2024</li>
                                         <li><i class="icon-33"></i>08:00AM-10:00PM</li>
                                     </ul>
-                                    <h4 class="title"><a href="event-details.html">Our excellence partner France
+                                    <h4 class="title"><a href="{{ route('blog.post.index') }}">Our excellence partner
+                                            France
                                             Pavilion</a></h4>
                                     <span class="event-location"><i class="icon-40"></i>Newyork City, USA</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
                                         incididunt.</p>
                                     <div class="read-more-btn">
-                                        <a class="edu-btn btn-medium btn-border" href="event-details.html">Learn More <i
-                                                class="icon-4"></i></a>
+                                        <a class="edu-btn btn-medium btn-border"
+                                            href="{{ route('blog.post.index') }}">Learn More <i class="icon-4"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -186,7 +188,7 @@
                         <div class="edu-event-list event-list-2">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="event-details.html">
+                                    <a href="{{ route('blog.post.index') }}">
                                         <img src="assets/images/event/event-16.jpg" alt="Event Images">
                                     </a>
                                 </div>
@@ -195,14 +197,15 @@
                                         <li><i class="icon-27"></i>Oct 10, 2024</li>
                                         <li><i class="icon-33"></i>08:00AM-10:00PM</li>
                                     </ul>
-                                    <h4 class="title"><a href="event-details.html">London International Conference</a>
+                                    <h4 class="title"><a href="{{ route('blog.post.index') }}">London International
+                                            Conference</a>
                                     </h4>
                                     <span class="event-location"><i class="icon-40"></i>Newyork City, USA</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
                                         incididunt.</p>
                                     <div class="read-more-btn">
-                                        <a class="edu-btn btn-medium btn-border" href="event-details.html">Learn More <i
-                                                class="icon-4"></i></a>
+                                        <a class="edu-btn btn-medium btn-border"
+                                            href="{{ route('blog.post.index') }}">Learn More <i class="icon-4"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -212,7 +215,7 @@
                         <div class="edu-event-list event-list-2">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="event-details.html">
+                                    <a href="{{ route('blog.post.index') }}">
                                         <img src="assets/images/event/event-17.jpg" alt="Event Images">
                                     </a>
                                 </div>
@@ -221,14 +224,15 @@
                                         <li><i class="icon-27"></i>Oct 10, 2024</li>
                                         <li><i class="icon-33"></i>08:00AM-10:00PM</li>
                                     </ul>
-                                    <h4 class="title"><a href="event-details.html">Explorations of New Approaches
+                                    <h4 class="title"><a href="{{ route('blog.post.index') }}">Explorations of New
+                                            Approaches
                                             Works</a></h4>
                                     <span class="event-location"><i class="icon-40"></i>Newyork City, USA</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
                                         incididunt.</p>
                                     <div class="read-more-btn">
-                                        <a class="edu-btn btn-medium btn-border" href="event-details.html">Learn More <i
-                                                class="icon-4"></i></a>
+                                        <a class="edu-btn btn-medium btn-border"
+                                            href="{{ route('blog.post.index') }}">Learn More <i class="icon-4"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -238,7 +242,7 @@
                         <div class="edu-event-list event-list-2">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="event-details.html">
+                                    <a href="{{ route('blog.post.index') }}">
                                         <img src="assets/images/event/event-18.jpg" alt="Event Images">
                                     </a>
                                 </div>
@@ -247,14 +251,15 @@
                                         <li><i class="icon-27"></i>Oct 10, 2024</li>
                                         <li><i class="icon-33"></i>08:00AM-10:00PM</li>
                                     </ul>
-                                    <h4 class="title"><a href="event-details.html">Digital Arts & Reshaping the Future
+                                    <h4 class="title"><a href="{{ route('blog.post.index') }}">Digital Arts & Reshaping
+                                            the Future
                                             with AI</a></h4>
                                     <span class="event-location"><i class="icon-40"></i>Newyork City, USA</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
                                         incididunt.</p>
                                     <div class="read-more-btn">
-                                        <a class="edu-btn btn-medium btn-border" href="event-details.html">Learn More <i
-                                                class="icon-4"></i></a>
+                                        <a class="edu-btn btn-medium btn-border"
+                                            href="{{ route('blog.post.index') }}">Learn More <i class="icon-4"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -264,7 +269,7 @@
                         <div class="edu-event-list event-list-2">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="event-details.html">
+                                    <a href="{{ route('blog.post.index') }}">
                                         <img src="assets/images/event/event-19.jpg" alt="Event Images">
                                     </a>
                                 </div>
@@ -273,14 +278,15 @@
                                         <li><i class="icon-27"></i>Oct 10, 2024</li>
                                         <li><i class="icon-33"></i>08:00AM-10:00PM</li>
                                     </ul>
-                                    <h4 class="title"><a href="event-details.html">Online Presentation on PowerPoint
+                                    <h4 class="title"><a href="{{ route('blog.post.index') }}">Online Presentation on
+                                            PowerPoint
                                             2024</a></h4>
                                     <span class="event-location"><i class="icon-40"></i>Newyork City, USA</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
                                         incididunt.</p>
                                     <div class="read-more-btn">
-                                        <a class="edu-btn btn-medium btn-border" href="event-details.html">Learn More <i
-                                                class="icon-4"></i></a>
+                                        <a class="edu-btn btn-medium btn-border"
+                                            href="{{ route('blog.post.index') }}">Learn More <i class="icon-4"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -290,7 +296,7 @@
                         <div class="edu-event-list event-list-2">
                             <div class="inner">
                                 <div class="thumbnail">
-                                    <a href="event-details.html">
+                                    <a href="{{ route('blog.post.index') }}">
                                         <img src="assets/images/event/event-19.jpg" alt="Event Images">
                                     </a>
                                 </div>
@@ -299,14 +305,15 @@
                                         <li><i class="icon-27"></i>Oct 10, 2024</li>
                                         <li><i class="icon-33"></i>08:00AM-10:00PM</li>
                                     </ul>
-                                    <h4 class="title"><a href="event-details.html">Digital Arts & Reshaping the Future
+                                    <h4 class="title"><a href="{{ route('blog.post.index') }}">Digital Arts & Reshaping
+                                            the Future
                                             with AI</a></h4>
                                     <span class="event-location"><i class="icon-40"></i>Newyork City, USA</span>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do eiusmod tempor
                                         incididunt.</p>
                                     <div class="read-more-btn">
-                                        <a class="edu-btn btn-medium btn-border" href="event-details.html">Learn More <i
-                                                class="icon-4"></i></a>
+                                        <a class="edu-btn btn-medium btn-border"
+                                            href="{{ route('blog.post.index') }}">Learn More <i class="icon-4"></i></a>
                                     </div>
                                 </div>
                             </div>
