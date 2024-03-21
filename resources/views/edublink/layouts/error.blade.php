@@ -14,20 +14,21 @@
             <div class="container">
                 <div class="edu-error">
                     <div class="thumbnail">
-                        <img src="assets/images/others/404.png" alt="404 Error">
+                        <img src="{{ asset('assets/images/others/404.png') }}" alt="404 Error">
                         <ul class="shape-group">
                             <li class="shape-1 scene">
-                                <img data-depth="2" src="assets/images/about/shape-25.png" alt="Shape">
+                                <img data-depth="2" src="{{ asset('assets/images/about/shape-25.png') }}" alt="Shape">
 
                             </li>
                             <li class="shape-2 scene">
-                                <img data-depth="-2" src="assets/images/about/shape-15.png" alt="Shape">
+                                <img data-depth="-2" src="{{ asset('assets/images/about/shape-15.png') }}" alt="Shape">
                             </li>
                             <li class="shape-3 scene">
-                                <img data-depth="2" src="assets/images/about/shape-13.png" alt="Shape">
+                                <img data-depth="2" src="{{ asset('assets/images/about/shape-13.png') }}" alt="Shape">
                             </li>
                             <li class="shape-4 scene">
-                                <img data-depth="-2" src="assets/images/counterup/shape-02.png" alt="Shape">
+                                <img data-depth="-2" src="{{ asset('assets/images/counterup/shape-02.png') }}"
+                                    alt="Shape">
                             </li>
                         </ul>
                     </div>
@@ -41,7 +42,7 @@
             </div>
             <ul class="shape-group">
                 <li class="shape-1">
-                    <img src="assets/images/others/map-shape-2.png" alt="Shape">
+                    <img src="{{ asset('assets/images/others/map-shape-2.png') }}" alt="Shape">
                 </li>
             </ul>
         </section>

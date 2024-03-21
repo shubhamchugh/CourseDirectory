@@ -10,8 +10,10 @@
                     <div class="edu-footer-widget">
                         <div class="logo">
                             <a href="{{ route('home.index') }}">
-                                <img class="logo-light" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                                <img class="logo-dark" src="assets/images/logo/logo-white.png" alt="Corporate Logo">
+                                <img class="logo-light" src="{{ asset('assets/images/logo/logo-dark.png') }}"
+                                    alt="Corporate Logo">
+                                <img class="logo-dark" src="{{ asset('assets/images/logo/logo-white.png') }}"
+                                    alt="Corporate Logo">
                             </a>
                         </div>
                         <p class="description">Lorem ipsum dolor amet consecto adi pisicing elit sed eiusm tempor

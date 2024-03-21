@@ -9,8 +9,10 @@
                 <div class="header-brand">
                     <div class="logo">
                         <a href="{{ route('home.index') }}">
-                            <img class="logo-light" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                            <img class="logo-dark" src="assets/images/logo/logo-white.png" alt="Corporate Logo">
+                            <img class="logo-light" src="{{ asset('assets/images/logo/logo-dark.png') }}"
+                                alt="Corporate Logo">
+                            <img class="logo-dark" src="{{ asset('assets/images/logo/logo-white.png') }}"
+                                alt="Corporate Logo">
                         </a>
                     </div>
                 </div>
@@ -57,8 +59,10 @@
             <div class="header-top">
                 <div class="logo">
                     <a href="{{ route('home.index') }}">
-                        <img class="logo-light" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                        <img class="logo-dark" src="assets/images/logo/logo-white.png" alt="Corporate Logo">
+                        <img class="logo-light" src="{{ asset('assets/images/logo/logo-dark.png') }}"
+                            alt="Corporate Logo">
+                        <img class="logo-dark" src="{{ asset('assets/images/logo/logo-white.png') }}"
+                            alt="Corporate Logo">
                     </a>
                 </div>
                 <div class="close-menu">
@@ -111,7 +115,8 @@
                             <ul class="submenu mega-sub-menu-01">
                                 <li>
                                     <a href="https://1.envato.market/5bQ022">
-                                        <img src="assets/images/others/mega-menu-image.webp" alt="advertising Image">
+                                        <img src="{{ asset('assets/images/others/mega-menu-image.webp') }}"
+                                            alt="advertising Image">
                                     </a>
                                 </li>
                             </ul>
@@ -200,8 +205,8 @@
     <div class="edu-search-popup">
         <div class="content-wrap">
             <div class="site-logo">
-                <img class="logo-light" src="assets/images/logo/logo-dark.png" alt="Corporate Logo">
-                <img class="logo-dark" src="assets/images/logo/logo-white.png" alt="Corporate Logo">
+                <img class="logo-light" src="{{ asset('assets/images/logo/logo-dark.png') }}" alt="Corporate Logo">
+                <img class="logo-dark" src="{{ asset('assets/images/logo/logo-white.png') }}" alt="Corporate Logo">
             </div>
             <div class="close-button">
                 <button class="close-trigger"><i class="icon-73"></i></button>
