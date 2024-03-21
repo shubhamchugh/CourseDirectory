@@ -138,7 +138,8 @@
                             <div class="course-tab-content" id="instructor-tab-id">
                                 <div class="course-instructor">
                                     <div class="thumbnail">
-                                        <img src="assets/images/course/author-01.png" alt="Author Images">
+                                        <img src="{{ asset('assets/images/course/author-01.png') }}"
+                                            alt="Author Images">
                                     </div>
                                     <div class="author-content">
                                         <h6 class="title">Edward Norton</h6>
@@ -250,7 +251,8 @@
                                             <!-- Start Single Comment  -->
                                             <div class="comment">
                                                 <div class="thumbnail">
-                                                    <img src="assets/images/blog/comment-01.jpg" alt="Comment Images">
+                                                    <img src="{{ asset('assets/images/blog/comment-01.jpg') }}"
+                                                        alt="Comment Images">
                                                 </div>
                                                 <div class="comment-content">
                                                     <div class="rating">
@@ -270,7 +272,8 @@
                                             <!-- Start Single Comment  -->
                                             <div class="comment">
                                                 <div class="thumbnail">
-                                                    <img src="assets/images/blog/comment-02.jpg" alt="Comment Images">
+                                                    <img src="{{ asset('assets/images/blog/comment-02.jpg') }}"
+                                                        alt="Comment Images">
                                                 </div>
                                                 <div class="comment-content">
                                                     <div class="rating">
@@ -290,7 +293,8 @@
                                             <!-- Start Single Comment  -->
                                             <div class="comment">
                                                 <div class="thumbnail">
-                                                    <img src="assets/images/blog/comment-03.jpg" alt="Comment Images">
+                                                    <img src="{{ asset('assets/images/blog/comment-03.jpg') }}"
+                                                        alt="Comment Images">
                                                 </div>
                                                 <div class="comment-content">
                                                     <div class="rating">
@@ -358,7 +362,7 @@
                     <div class="edu-course-widget widget-course-summery">
                         <div class="inner">
                             <div class="thumbnail">
-                                <img src="assets/images/course/course-46.jpg" alt="Courses">
+                                <img src="{{ asset('assets/images/course/course-46.jpg') }}" alt="Courses">
                                 <a href="https://www.youtube.com/watch?v=PICj5tr9hcc"
                                     class="play-btn video-popup-activation"><i class="icon-18"></i></a>
                             </div>
@@ -379,8 +383,8 @@
                                     </li>
                                     <li>
                                         <span class="label">
-                                            <img class="svgInject" src="assets/images/svg-icons/books.svg"
-                                                alt="book icon">
+                                            <img class="svgInject"
+                                                src="{{ asset('assets/images/svg-icons/books.svg') }}" alt="book icon">
                                             Lessons:</span>
                                         <span class="value">8</span>
                                     </li>

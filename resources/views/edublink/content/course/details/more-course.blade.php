@@ -15,7 +15,7 @@
                     <div class="inner">
                         <div class="thumbnail">
                             <a href="course-details.html">
-                                <img src="assets/images/course/course-111.jpg" alt="Course Meta">
+                                <img src="{{ asset('assets/images/course/course-111.jpg') }}" alt="Course Meta">
                             </a>
                         </div>
                         <div class="content">
@@ -90,7 +90,7 @@
                     <div class="inner">
                         <div class="thumbnail">
                             <a href="course-details.html">
-                                <img src="assets/images/course/course-112.jpg" alt="Course Meta">
+                                <img src="{{ asset('assets/images/course/course-112.jpg') }}" alt="Course Meta">
                             </a>
                         </div>
                         <div class="content">
@@ -165,7 +165,7 @@
                     <div class="inner">
                         <div class="thumbnail">
                             <a href="course-details.html">
-                                <img src="assets/images/course/course-113.jpg" alt="Course Meta">
+                                <img src="{{ asset('assets/images/course/course-113.jpg') }}" alt="Course Meta">
                             </a>
                         </div>
                         <div class="content">
