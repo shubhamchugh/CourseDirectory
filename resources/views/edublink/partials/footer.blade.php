@@ -34,7 +34,7 @@
                         <div class="inner">
                             <ul class="footer-link link-hover">
                                 <li><a href="{{ route('about') }}">About</a></li>
-                                <li><a href="course-one.html">Courses</a></li>
+                                <li><a href="{{ route('course.list.index') }}">Courses</a></li>
                                 <li><a href="team-one.html">Instructor</a></li>
                                 <li><a href="event-grid.html">Events</a></li>
                                 <li><a href="team-details.html">Instructor Profile</a></li>
