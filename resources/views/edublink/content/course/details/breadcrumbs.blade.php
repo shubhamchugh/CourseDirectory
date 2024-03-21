@@ -11,10 +11,10 @@
                 <li class="separator"><i class="icon-angle-right"></i></li>
                 <li class="breadcrumb-item"><a href="course-one.html">Courses</a></li>
                 <li class="separator"><i class="icon-angle-right"></i></li>
-                <li class="breadcrumb-item active" aria-current="page">Course Details</li>
+                <li class="breadcrumb-item active" aria-current="page">{{ $course->title }}</li>
             </ul>
             <div class="page-title">
-                <h2 class="title">Global Education Fall Meeting for Everyone</h2>
+                <h2 class="title">{{ $course->title }}</h2>
             </div>
             <ul class="course-meta">
                 <li><i class="icon-58"></i>by Edward Norton</li>
