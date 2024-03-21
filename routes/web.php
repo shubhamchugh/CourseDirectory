@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\Frontend\Course\CourseDetailController;
+use App\Http\Controllers\Frontend\Course\CourseListController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -35,4 +36,6 @@ Route::get('/course-list', function () {
     return view('edublink.content.course.lists.index');
 })->name('course.list.index');
 
-Route::get('course/{slug}', [CourseDetailController::class, 'show']);
+Route::get('course/{slug}', [CourseDetailController::class, 'show'])->name('course.detail.show');
+
+Route::get('courses', [CourseListController::class, 'index'])->name('course.list.index');

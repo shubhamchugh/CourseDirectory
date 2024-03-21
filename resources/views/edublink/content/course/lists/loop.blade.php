@@ -1,8 +1,10 @@
+@foreach ($courses as $course)
+
 <div class="edu-course course-style-4 course-style-14">
     <div class="inner">
         <div class="thumbnail">
             <a href="{{ route('course.details.index') }}">
-                <img src="assets/images/course/course-12.jpg" alt="Course Meta">
+                <img src="{{ asset('assets/images/course/course-12.jpg') }}" alt="Course Meta">
             </a>
             <div class="time-top">
                 <span class="duration"><i class="icon-61"></i>3 Weeks</span>
@@ -11,8 +13,7 @@
         <div class="content">
             <div class="course-price">$29.00</div>
             <h6 class="title">
-                <a href="{{ route('course.details.index') }}">Java Programming Masterclass for Software
-                    Developers</a>
+                <a href="{{ route('course.detail.show',$course->slug) }}">{{ $course->title }}</a>
             </h6>
             <div class="course-rating">
                 <div class="rating">
@@ -69,3 +70,5 @@
         </div>
     </div>
 </div>
+
+@endforeach
