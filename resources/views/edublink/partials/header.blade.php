@@ -40,9 +40,9 @@
                                 <i class="icon-2"></i>
                             </a>
                         </li>
-                        <li><a href="contact-us.html">Login In</a></li>
+                        <li><a href="admin/login">Login In</a></li>
                         <li class="header-btn">
-                            <a href="contact-us.html" class="edu-btn btn-medium">Sign Up<i class="icon-4"></i></a>
+                            <a href="admin/login" class="edu-btn btn-medium">Sign Up<i class="icon-4"></i></a>
                         </li>
                         <li class="mobile-menu-bar d-block d-xl-none">
                             <button class="hamberger-button">
